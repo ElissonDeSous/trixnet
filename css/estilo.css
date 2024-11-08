@@ -13,21 +13,30 @@ header{
 
 }
 .topo{
+    position: absolute;
+    top: 50px;
+    bottom: 100px;
+    background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 1300px;
-    border-radius: 0 0 20px 20px;
-    height: 150px;
-    
+    width: 1347px;
+    border-radius: 0 0 50px 50px;
+    height: 100px;
+}
+#logo{
+    position: relative;
+    left: 30px;
 }
 nav{
     position: relative;
-    left: 70px;
+    left: 200px;
     display: flex;
     width: 600px;
 }
 .infoTopo{
+    position: absolute;
+    top: 0;
     width: 1347px;
     background-color: rgb(250, 183, 0);
     height: 50px;
@@ -53,12 +62,14 @@ a{
     color: white;
 }
 #botoes{
-    width: 100%;
+    width: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .areaCliente{
+    position: relative;
+    left:100px ;
     margin-left: 5px;
     display: flex;
     align-items: center;
@@ -76,5 +87,9 @@ a{
 @media (max-width: 1000px) {
     .infoTopo{
         display: none;
+    }
+
+    .topo{
+        width: 900px;
     }
 }
