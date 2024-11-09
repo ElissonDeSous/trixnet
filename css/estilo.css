@@ -14,13 +14,13 @@ header{
 }
 .topo{
     position: absolute;
-    top: 50px;
+     top: 50px;
     bottom: 100px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1347px;
+    width: 100%;
     border-radius: 0 0 50px 50px;
     height: 100px;
 }
@@ -37,7 +37,7 @@ nav{
 .infoTopo{
     position: absolute;
     top: 0;
-    width: 1347px;
+    width: 100%;
     background-color: rgb(250, 183, 0);
     height: 50px;
 }
